@@ -1,4 +1,4 @@
-FROM python
+FROM registry.access.redhat.com/ubi10/python-312-minimal
 LABEL image.author.name="Shaun Murakami"
 LABEL image.author.email="stmuraka@gmail.com"
 RUN  python -m venv .venv; \
